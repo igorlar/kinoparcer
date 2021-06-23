@@ -1,0 +1,231 @@
+.header {
+    z-index: 1000;
+    font-family: PT Sans;
+    font-weight: bold;
+    font-size: 50pt;
+    color: #fff;
+    width: 100%;
+    z-index: 1000;
+    height: 90px;
+    border-bottom: 0 solid #036ccc;
+    background: #a5e03e;
+    position: fixed;
+    top: 0;
+}
+
+.empt {
+    height: 90pt;
+}
+
+.container{
+    width: 100%;
+    min-width: 900px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cinema-list {
+    clear: both;
+    padding-inline-start: 0px;
+}
+
+.cinema-list_item {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    min-height: 200px;
+    font-family: PT Sans;
+    background: #f1f1f1;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.cinema-list_header {
+    font-family: PT Sans;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.cinema-image {
+    margin-right: 50px;
+    display: block;
+    width: 50%;
+}
+
+.cinema-list_info {
+    font-family: PT Sans;
+    width: 100%;
+    max-width: 880px;
+}
+
+.cinema-list_labels {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0;
+}
+
+.cinema-list_age {
+    padding: 0 10px;
+    display: inline-block;
+    height: 35px;
+    font-family: PT Sans;
+    font-size: 25px;
+    line-height: 37px;
+    vertical-align: middle;
+    color: #000;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #000;
+}
+
+.cinema-list_title {
+    font-family: PT Sans;
+    font-weight: bold;
+    color: #A6006C;
+    font-size: 25pt;
+    margin-bottom: 20px;
+}
+
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    white-space: pre;
+    text-transform: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+}
+
+.my-form {
+    font-family: PT Sans;
+    font-size: 16pt;
+}
+
+.tex-ch {
+    font-size: 12pt;
+    margin: 3px 10px;
+}
+
+.cinema-list__subinfo {
+    display: inline-block;
+    height: 30px;
+    line-height: 28px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.cinema-list_genre {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    color: #999;
+}
+
+.time-list_item {
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.cinema-table_th>a {
+    font-family: PT Sans;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+
+a:any-link {
+    color: -webkit-link;
+    text-decoration: none;
+    color: #000;
+    cursor: auto;
+}
+
+
+
+.cinema-table {
+    margin-top: 0px;
+    display: table;
+    width: 100%;
+}
+
+.time-list {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    max-width: 450px;
+    width: 100%;
+}
+
+.cinema-table_th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    text-align: left;
+}
+
+input[type=date] {
+    font-family: PT Sans;
+    font-size: 16pt;
+    padding: 7px 25px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+input[type=date]:focus {
+    border: 1px solid #a5e03e;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #a5e03e;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: PT Sans;
+    font-size: 16pt;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+input[type=submit]:hover {
+    background-color: #659e02;
+}
